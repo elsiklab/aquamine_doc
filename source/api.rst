@@ -3,7 +3,7 @@ API
 
 An API is available for users who would like to programmatically access FAANGMine.
 
-.. figure:: images/api.png
+.. figure:: images/api.jpg
   :width: 696
   :alt: API page
   :figclass: align-center

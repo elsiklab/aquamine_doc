@@ -19,7 +19,7 @@ To access MyMine, click on the MyMine menu tab. A submenu appears with six optio
 
 
 
- .. figure:: images/MyMine.png
+ .. figure:: images/MyMine.jpg
    :width: 696
    :alt: MyMine Home
    :figclass: align-center

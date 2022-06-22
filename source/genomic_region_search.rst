@@ -4,7 +4,7 @@ The **Genomic Regions Search** is a tool to fetch features that are within a giv
 
 To begin this type of search, click the **Regions** tab on the menu bar. A form will appear asking for the search parameters (organism, feature types, genomic coordinates, etc.)
 
- .. figure:: images/genomic-regions-search-form.png
+ .. figure:: images/genomic-regions-search-form.jpg
    :width: 696
    :alt: Genomic Regions Search Form
    :figclass: align-center
@@ -35,7 +35,7 @@ As an example, select *Ictalurus punctatus* from the Select Organism drop-down, 
 
 Click the search box to conduct the genomic regions search.  If there are no overlaps within your search coordinates, the search can be done again with the search region extended using the slide bar or entering text into the search box (e.g., 10k).
 
- .. figure:: images/genomic-regions-search-example.png
+ .. figure:: images/genomic-regions-search-example.jpg
    :width: 696
    :alt: Genomic Regions Search Example
    :figclass: align-center
@@ -48,7 +48,7 @@ The search results page presents a list of features present within the genomic i
 
 
 
- .. figure:: images/genomic-regions-search-results.png
+ .. figure:: images/genomic-regions-search-results.jpg
    :width: 696
    :alt: Genomic Regions Search Results
    :figclass: align-center

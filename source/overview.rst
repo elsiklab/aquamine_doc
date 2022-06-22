@@ -3,7 +3,7 @@ Overview of AquaMine
 
 This section provides a brief overview of the layout for AquaMine.
 
- .. image:: images/AquaMine-banner.png
+ .. image:: images/AquaMine-banner.jpg
 
 The navigation panel highlights different functionalities of AquaMine.
 
