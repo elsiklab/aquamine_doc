@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html class="writer-html4" lang="en" >
+<html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Report Pages &mdash; AquaMine 1.1 documentation</title><link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <title>Report Pages &mdash; AquaMine 1.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
-  <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -35,7 +38,7 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+              <p class="caption" role="heading"><span class="caption-text">Table of Contents</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview of AquaMine</a></li>
 <li class="toctree-l1"><a class="reference internal" href="navigation_and_searching.html">Navigation and Searching in AquaMine</a></li>
@@ -81,79 +84,83 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="report-pages">
-<h1>Report Pages<a class="headerlink" href="#report-pages" title="Permalink to this headline">\uf0c1</a></h1>
+  <section id="report-pages">
+<h1>Report Pages<a class="headerlink" href="#report-pages" title="Permalink to this heading"></a></h1>
 <p>All objects in AquaMine (e.g., gene, protein, transcript, publication) have report pages that can viewed after running a query.  It allows users to view all available information for that object while providing links to related objects.  As an example, we can revisit the templates example.  In the list of templates under the <strong>Templates</strong> tab on the AquaMine home page, select Gene -&gt; Protein Sequences to query AquaMine to retrieve all protein sequencess for a given gene. Enter the Gene ID “ENSELUG00000001587” into the the LOOKUP search box then click <strong>Show Results</strong>.  In the results table, note that every entry is contains a link.  You can mouse over any link to bring up a summary of that object. If we hover over the first Gene ID, we can see a summary box that includes information about that particular gene.</p>
-<div class="align-center figure" id="id1">
+<figure class="align-center align-default" id="id1">
 <a class="reference internal image-reference" href="_images/reports-summary.jpg"><img alt="Report summary box" src="_images/reports-summary.jpg" style="width: 380px;" /></a>
-<p class="caption"><span class="caption-text">Summary for gene entry in query results table</span></p>
+<figcaption>
+<p><span class="caption-text">Summary for gene entry in query results table</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
 <div class="legend">
 </div>
-</div>
+</figcaption>
+</figure>
 <p>Clicking on that same link will bring up its report page that includes a comprehensive overview for that gene.  The report page header shows the Gene ID and its Biotype, for this example, protein coding. The tabs at the top of the page in the Quick Links menu bar quickly bring you to the data listed. The column on the right side of the report page displays external links to other Mines and databases.</p>
-<div class="align-center figure" id="id2">
+<figure class="align-center align-default" id="id2">
 <a class="reference internal image-reference" href="_images/reports-page.jpg"><img alt="Report page" src="_images/reports-page.jpg" style="width: 696px;" /></a>
-<p class="caption"><span class="caption-text">Report page for protein-coding gene</span></p>
+<figcaption>
+<p><span class="caption-text">Report page for protein-coding gene</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
 <div class="legend">
 </div>
-</div>
+</figcaption>
+</figure>
 <p>The content of the report page is divided into categories based on the type of information provided for that particular object. Clicking on links within each category bring up more details about the objects of interest.</p>
-<div class="section" id="summary">
-<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">\uf0c1</a></h2>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this heading"></a></h2>
 <p>The <strong>Summary</strong> section near the top of the report provides information on the gene such as its length, chromosome location, and strand information.  Users can also get the complete FASTA sequence of the gene by clicking on the FASTA tab.</p>
-<div class="align-center figure">
+<figure class="align-center align-default">
 <a class="reference internal image-reference" href="_images/reports-page-summary.jpg"><img alt="Report page summary section" src="_images/reports-page-summary.jpg" style="width: 696px;" /></a>
-</div>
-</div>
-<div class="section" id="transcripts">
-<h2>Transcripts<a class="headerlink" href="#transcripts" title="Permalink to this headline">\uf0c1</a></h2>
+</figure>
+</section>
+<section id="transcripts">
+<h2>Transcripts<a class="headerlink" href="#transcripts" title="Permalink to this heading"></a></h2>
 <p>The <strong>Transcripts</strong> section contains information about the gene model, such as transcripts and exons. Links to FASTA files are included where applicable.</p>
-<div class="align-center figure">
+<figure class="align-center align-default">
 <a class="reference internal image-reference" href="_images/reports-page-transcripts.jpg"><img alt="Report page transcript section" src="_images/reports-page-transcripts.jpg" style="width: 696px;" /></a>
-</div>
-</div>
-<div class="section" id="proteins">
-<h2>Proteins<a class="headerlink" href="#proteins" title="Permalink to this headline">\uf0c1</a></h2>
+</figure>
+</section>
+<section id="proteins">
+<h2>Proteins<a class="headerlink" href="#proteins" title="Permalink to this heading"></a></h2>
 <p>The <strong>Proteins</strong> section provides information about the protein product of the gene. The comments section gives a brief description about the protein along with the UniProt accession and links to any outside data sets.</p>
-<div class="align-center figure">
+<figure class="align-center align-default">
 <a class="reference internal image-reference" href="_images/reports-page-proteins.jpg"><img alt="Report page protein section" src="_images/reports-page-proteins.jpg" style="width: 696px;" /></a>
-</div>
-</div>
-<div class="section" id="function">
-<h2>Function<a class="headerlink" href="#function" title="Permalink to this headline">\uf0c1</a></h2>
+</figure>
+</section>
+<section id="function">
+<h2>Function<a class="headerlink" href="#function" title="Permalink to this heading"></a></h2>
 <p>The <strong>Function</strong> section displays Gene Ontology annotations for a gene. Annotations are divided into three categories:</p>
 <ul class="simple">
-<li>Cellular Component</li>
-<li>Molecular Function</li>
-<li>Biological Process</li>
+<li><p>Cellular Component</p></li>
+<li><p>Molecular Function</p></li>
+<li><p>Biological Process</p></li>
 </ul>
 <p>The GO terms are displayed along with the evidence code indicating how the annotations were derived.  A results with Pathway information is also displayed if applicable.</p>
-<div class="align-center figure">
+<figure class="align-center align-default">
 <a class="reference internal image-reference" href="_images/reports-page-function.jpg"><img alt="Report page function section" src="_images/reports-page-function.jpg" style="width: 696px;" /></a>
-</div>
-</div>
-<div class="section" id="homology">
-<h2>Homology<a class="headerlink" href="#homology" title="Permalink to this headline">\uf0c1</a></h2>
+</figure>
+</section>
+<section id="homology">
+<h2>Homology<a class="headerlink" href="#homology" title="Permalink to this heading"></a></h2>
 <p>The <strong>Homology</strong> section provides information for all homologues and displays a summarized view of the homologues reported in different organisms.</p>
-<div class="align-center figure">
+<figure class="align-center align-default">
 <a class="reference internal image-reference" href="_images/reports-page-homology.jpg"><img alt="Report page homology section" src="_images/reports-page-homology.jpg" style="width: 696px;" /></a>
-</div>
-</div>
-<div class="section" id="publications">
-<h2>Publications<a class="headerlink" href="#publications" title="Permalink to this headline">\uf0c1</a></h2>
+</figure>
+</section>
+<section id="publications">
+<h2>Publications<a class="headerlink" href="#publications" title="Permalink to this heading"></a></h2>
 <p>The <strong>Publications</strong> section displays a table of publications related to the gene with links to full citations.</p>
-<div class="align-center figure">
+<figure class="align-center align-default">
 <a class="reference internal image-reference" href="_images/reports-page-publications.jpg"><img alt="Report page publication section" src="_images/reports-page-publications.jpg" style="width: 696px;" /></a>
-</div>
-</div>
-<div class="section" id="other">
-<h2>Other<a class="headerlink" href="#other" title="Permalink to this headline">\uf0c1</a></h2>
+</figure>
+</section>
+<section id="other">
+<h2>Other<a class="headerlink" href="#other" title="Permalink to this heading"></a></h2>
 <p>This last section provides miscellaneous information that do not fit into any of the above categories.  This example lists other data sets that the gene belongs to.</p>
-<div class="align-center figure">
+<figure class="align-center align-default">
 <a class="reference internal image-reference" href="_images/reports-page-other.jpg"><img alt="Report page other section" src="_images/reports-page-other.jpg" style="width: 696px;" /></a>
-</div>
-</div>
-</div>
+</figure>
+</section>
+</section>
 
 
            </div>

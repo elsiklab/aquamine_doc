@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html class="writer-html4" lang="en" >
+<html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lists &mdash; AquaMine 1.1 documentation</title><link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <title>Lists &mdash; AquaMine 1.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
-  <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -35,7 +38,7 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+              <p class="caption" role="heading"><span class="caption-text">Table of Contents</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview of AquaMine</a></li>
 <li class="toctree-l1"><a class="reference internal" href="navigation_and_searching.html">Navigation and Searching in AquaMine</a></li>
@@ -76,80 +79,94 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="lists">
-<h1>Lists<a class="headerlink" href="#lists" title="Permalink to this headline">\uf0c1</a></h1>
-<div class="section" id="creating-lists">
-<h2>Creating Lists<a class="headerlink" href="#creating-lists" title="Permalink to this headline">\uf0c1</a></h2>
+  <section id="lists">
+<h1>Lists<a class="headerlink" href="#lists" title="Permalink to this heading"></a></h1>
+<section id="creating-lists">
+<h2>Creating Lists<a class="headerlink" href="#creating-lists" title="Permalink to this heading"></a></h2>
 <p>Users may create and save lists of features, such as gene IDs, transcript IDs, gene symbols, etc. The list tool searches the database for the list items and attempts to convert each identifier to the selected type. Click on the Lists tab from the menu to access the full list upload form. A short version of the form is also in the Quick List box on the home page.</p>
 <blockquote>
-<div><div class="align-center figure" id="id1">
+<div><figure class="align-center align-default" id="id1">
 <a class="reference internal image-reference" href="_images/lists-upload-form.jpg"><img alt="Lists Upload Form" src="_images/lists-upload-form.jpg" style="width: 696px;" /></a>
-<p class="caption"><span class="caption-text">List upload form</span></p>
+<figcaption>
+<p><span class="caption-text">List upload form</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
 <div class="legend">
 </div>
-</div>
-<div class="align-center figure" id="id2">
+</figcaption>
+</figure>
+<figure class="align-center align-default" id="id2">
 <a class="reference internal image-reference" href="_images/lists-quick-list.jpg"><img alt="Lists Quick List" src="_images/lists-quick-list.jpg" style="width: 296px;" /></a>
-<p class="caption"><span class="caption-text">Quick list from AquaMine home page</span></p>
+<figcaption>
+<p><span class="caption-text">Quick list from AquaMine home page</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
 <div class="legend">
 </div>
-</div>
+</figcaption>
+</figure>
 </div></blockquote>
 <p>As an example, enter the following comma-separated identifiers into the Lists upload form under the <strong>Lists</strong> tab.  Notice that they do not have to be in the same format.  A Summary table is displayed with the results of searching for each of the five identifiers in the list.</p>
 <p>LOC105319044, 114545253, wisp1, ENSONEG00000000134, gstk1</p>
 <p>Leave the <strong>Select Type</strong> drop-down menu to <strong>Gene</strong> and the <strong>Organism</strong> drop-down to <strong>Any</strong>.  Click on <strong>Create List</strong>.  Note that you can also upload a list from a .txt file.</p>
 <blockquote>
-<div><div class="align-center figure" id="id3">
+<div><figure class="align-center align-default" id="id3">
 <a class="reference internal image-reference" href="_images/lists-results.jpg"><img alt="Lists results" src="_images/lists-results.jpg" style="width: 596px;" /></a>
-<p class="caption"><span class="caption-text">List Example: Search results for list of identifiers</span></p>
+<figcaption>
+<p><span class="caption-text">List Example: Search results for list of identifiers</span><a class="headerlink" href="#id3" title="Permalink to this image"></a></p>
 <div class="legend">
 </div>
-</div>
+</figcaption>
+</figure>
 </div></blockquote>
 <p>The summary table provides information regarding those identifiers that had a direct hit without any duplicates.  If there are any duplicates, users can decide to add the relevant entries individually by clicking on the <strong>Add</strong> button under the <strong>Action</strong> column or choosing the <strong>Add all</strong> tab.  Here we will click <strong>Add all</strong>.  Once the selections have been added, the list can be saved by clicking the <strong>Save a list of 27 Genes</strong> button on the top of the summary table.  Name the list by entering text into the <strong>Choose a name for the list</strong> box at the top of the results page.</p>
 <blockquote>
-<div><div class="align-center figure" id="id4">
+<div><figure class="align-center align-default" id="id4">
 <a class="reference internal image-reference" href="_images/lists-results-save.jpg"><img alt="Lists save results" src="_images/lists-results-save.jpg" style="width: 596px;" /></a>
-<p class="caption"><span class="caption-text">List Example: Saving list of identifiers</span></p>
+<figcaption>
+<p><span class="caption-text">List Example: Saving list of identifiers</span><a class="headerlink" href="#id4" title="Permalink to this image"></a></p>
 <div class="legend">
 </div>
-</div>
+</figcaption>
+</figure>
 </div></blockquote>
 <p>After the list is saved, users are presented with a <strong>List Analysis</strong> page.  This page provides users with widgets to perform analyses on gene lists that they have created.</p>
 <blockquote>
-<div><div class="align-center figure" id="id5">
+<div><figure class="align-center align-default" id="id5">
 <a class="reference internal image-reference" href="_images/lists-analysis-page.jpg"><img alt="Lists analysis pate" src="_images/lists-analysis-page.jpg" style="width: 596px;" /></a>
-<p class="caption"><span class="caption-text">List Example: Analysis for gene list</span></p>
+<figcaption>
+<p><span class="caption-text">List Example: Analysis for gene list</span><a class="headerlink" href="#id5" title="Permalink to this image"></a></p>
 <div class="legend">
 </div>
-</div>
+</figcaption>
+</figure>
 </div></blockquote>
 <p>The selection of widgets provided on the List Analysis page depend on the contents of the list. The available widgets for this list example include:</p>
 <ol class="arabic simple">
-<li>Gene Ontology Enrichment</li>
-<li>Publication Enrichment</li>
-<li>Pathway Enrichment</li>
+<li><p>Gene Ontology Enrichment</p></li>
+<li><p>Publication Enrichment</p></li>
+<li><p>Pathway Enrichment</p></li>
 </ol>
 <blockquote>
-<div><div class="align-center figure" id="id6">
+<div><figure class="align-center align-default" id="id6">
 <a class="reference internal image-reference" href="_images/lists-widgets.jpg"><img alt="Lists widgets" src="_images/lists-widgets.jpg" style="width: 596px;" /></a>
-<p class="caption"><span class="caption-text">List Example: Displayed widgets for list analysis</span></p>
+<figcaption>
+<p><span class="caption-text">List Example: Displayed widgets for list analysis</span><a class="headerlink" href="#id6" title="Permalink to this image"></a></p>
 <div class="legend">
 </div>
-</div>
+</figcaption>
+</figure>
 </div></blockquote>
-</div>
-<div class="section" id="saving-lists">
-<h2>Saving Lists<a class="headerlink" href="#saving-lists" title="Permalink to this headline">\uf0c1</a></h2>
+</section>
+<section id="saving-lists">
+<h2>Saving Lists<a class="headerlink" href="#saving-lists" title="Permalink to this heading"></a></h2>
 <p>To see your saved lists, click the <strong>View</strong> tab on the <strong>Lists</strong> page. Note the saved list is highlighted in light purple and has a “MY” label in the corner. The remaining lists are gene lists for the organisms in AquaMine that can be used for future analyses. If not logged in, lists will be saved temporarily during your current session. However, you must be logged in to save your lists permanently.  Further analyses of lists can be done with the <strong>Actions</strong> links at the top of the list. The links become active once lists are selected for analyses.  Saved lists may also be accessed from the <strong>MyMine</strong> menu tab.</p>
 <blockquote>
-<div><div class="align-center figure" id="id7">
+<div><figure class="align-center align-default" id="id7">
 <a class="reference internal image-reference" href="_images/lists-saved.jpg"><img alt="Lists widgets" src="_images/lists-saved.jpg" style="width: 596px;" /></a>
-<p class="caption"><span class="caption-text">List Example: Saved user lists</span></p>
-</div>
+<figcaption>
+<p><span class="caption-text">List Example: Saved user lists</span><a class="headerlink" href="#id7" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
 </div></blockquote>
-</div>
-</div>
+</section>
+</section>
 
 
            </div>
