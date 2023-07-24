@@ -29,7 +29,7 @@ As an example, select *Ictalurus punctatus* from the Select Organism drop-down, 
 
 ::
 
-14:6000000..6800000
+	14:6000000..6800000
 
 ..
 

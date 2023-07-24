@@ -3,7 +3,8 @@ Overview of AquaMine
 
 This section provides a brief overview of the layout for AquaMine.
 
- .. image:: images/AquaMine-banner.jpg
+.. image:: images/AquaMine-banner.jpg
+  :alt: AquaMine main menu
 
 The navigation panel highlights different functionalities of AquaMine.
 
@@ -20,6 +21,8 @@ The navigation panel highlights different functionalities of AquaMine.
  **Regions** - The Genomic Region Search tool where users can enter a series of genomic coordinates, specify flanking regions and fetch all features that fall within the given interval. The result can be exported or saved as a list for further analyses.
 
  **Data Sources** - Provides a summary of all the data loaded into AquaMine including their sources, associated publications and links to source sites.
+
+ **Taxonomy** - Taxonomic tree for all species in AquaMine (based on the NCBI taxonomy database), given as a reference for homologue queries.
 
  **Help** - Links to the AquaMine help docs and tutorials
 

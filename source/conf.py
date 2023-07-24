@@ -21,7 +21,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = u'AquaMine'
-copyright = u'2022, Elsik Lab'
+copyright = u'2023, Elsik Lab'
 author = u'Elsik Lab'
 
 # The short X.Y version
