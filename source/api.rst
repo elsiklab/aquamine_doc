@@ -8,9 +8,8 @@ An API is available for users who would like to programmatically access FAANGMin
   :alt: API page
   :figclass: align-center
 
-  ..
+..
 
-  ..
 
 Perl, Python, Ruby, and Java are the languages supported by the InterMine API.
 

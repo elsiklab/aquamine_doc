@@ -11,12 +11,14 @@ AquaMine v1.2 Documentation
 .. image:: images/AquaMine-banner.jpg
    :alt: AquaMine main menu
 
+..
+
 Main site: https://aquamine.rnet.missouri.edu/aquamine/begin.do
 
 Link to the datasets used in AquaMine can be found here:
 https://aquamine.rnet.missouri.edu/aquamine/dataCategories.do
 
-AquaMine.org is based upon work supported by the National Science Foundation under Award Number 0054449. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. AquaMine is developed and hosted at the University of Missouri.  If you have comments or if you wish to report a problem, please contact the Database Administrator.
+`AquaMine.org <http://aquamine.org>`_ is based upon work supported by Agriculture and Food Research Initiative Competitive grant no. 2021-67021-34254 from the USDA National Institute of Food and Agriculture. AquaMine is developed and hosted at the `University of Missouri <http://www.missouri.edu>`_.
 
 
 .. toctree::
